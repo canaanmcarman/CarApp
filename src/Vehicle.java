@@ -52,6 +52,14 @@ public class Vehicle {
     public void setMpg(int mpg) {
         this.mpg = mpg;
     }
+    public int getMpg() {
+        return this.mpg;
+    }
+
+    public String getDescription() {
+        return "This is a " + getColor() + " " + getName() + " with a " + getEngine() + " engine" +
+                " with a top speed of " + getTopSpeed() + " and a MPG of " + getMpg();
+    }
 
 
 }

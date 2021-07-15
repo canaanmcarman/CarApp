@@ -14,4 +14,5 @@ public class Car extends Vehicle {
     public String currentSpeed() {
         return "The " + getColor() + " " + getName() + " is reaching a speed of " + getCurrentSpeed();
     }
+
 }
